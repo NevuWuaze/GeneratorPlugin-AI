@@ -1,0 +1,8 @@
+auto-save: true
+language: "es"
+allow-scripts: true
+max-plugin-size: 500KB
+permissions:
+  admin: generator.admin
+  create: generator.create
+  compile: generator.compile

@@ -1,0 +1,21 @@
+name: GeneratorPlugin-AI
+version: 1.0
+main: com.example.generatorai.Main
+api-version: 1.13
+commands:
+  ai:
+    description: Main command for GeneratorPlugin-AI
+    usage: /ai <createplugin|reload|...>
+  gen:
+    description: Alternative command for GeneratorPlugin-AI
+    usage: /gen <action>
+permissions:
+  generator.admin:
+    description: Full access to GeneratorPlugin-AI
+    default: op
+  generator.create:
+    description: Permission to create plugins
+    default: false
+  generator.compile:
+    description: Permission to compile plugins
+    default: false
